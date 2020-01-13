@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="User Details" max_length="40" name="x_442643_user_app_user_details" sizeclass="4" type="collection">
+        <element label="Contact Number " mandatory="true" max_length="10" name="contact_number" type="string"/>
+        <element label="Date of Birth" mandatory="true" max_length="10" name="date_of_birth" type="glide_date"/>
+        <element label="Department" mandatory="true" max_length="50" name="department" type="string_full_utf8"/>
+        <element label="First Name" mandatory="true" max_length="25" name="first_name" type="string_full_utf8"/>
+        <element label="Higest Qualification" mandatory="true" max_length="30" name="higest_qualification" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="25" name="last_name" type="string_full_utf8"/>
+        <element label="Mail ID" max_length="30" name="mail_id" type="string"/>
+        <element label="Photo" max_length="40" name="photo" type="file_attachment"/>
+        <element label="Website link" mandatory="true" max_length="1024" name="website_link" type="url"/>
+    </element>
+</database>

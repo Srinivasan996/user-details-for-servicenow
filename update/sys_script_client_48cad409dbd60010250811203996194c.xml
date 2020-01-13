@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>last_name</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>New demo script</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   g_form.addErrorMessage("Welcome " + "Srini");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-10 11:55:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48cad409dbd60010250811203996194c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New demo script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="User App" source="x_442643_user_app">0498b730db56001025081120399619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="User App">0498b730db56001025081120399619b0</sys_scope>
+        <sys_update_name>sys_script_client_48cad409dbd60010250811203996194c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-10 11:59:24</sys_updated_on>
+        <table>x_442643_user_app_user_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
